@@ -1,4 +1,4 @@
-import Home from "./pages/Home/Home";
+import Forms from "./pages/Forms/Forms";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Forms />} />
       </Routes>
     </BrowserRouter>
   )
