@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-image: url(../../assets/fundo_home.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0.5em;
+}
+
+.lado_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 38%;
+    height: 45%;
+    margin-top: 10em;
+    margin-left: 1em;
+}
+
+.texto{
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.paragrafo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.botao{
+    margin: 0 auto;
+    width: 70%;
+    color: antiquewhite;
+    background-color: #062a33cc;
+    border: 0;
+    padding: 0.5em;
+    border-radius: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    
+}
+
+.botao:hover{
+    background-color: #07343fa1;
+}
