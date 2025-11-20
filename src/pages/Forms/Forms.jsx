@@ -1,6 +1,14 @@
 import "./Forms.css"
+import { useNavigate } from "react-router-dom";
 
 function Forms() {
+
+  const navigate = useNavigate();
+
+  function irParaOutraPagina() {
+    navigate("/resultado");
+  }
+
   return (
     <div>
       <div className="container mt-5 border-custom">
@@ -93,7 +101,7 @@ function Forms() {
           </div>
 
           <div class="row mb-3 col-2 d-flex align-items-end">
-            <button class="btn btn-success" type="submit" >Calcular</button>
+            <button class="btn btn-success" type="submit" onClick={irParaOutraPagina} >Calcular</button>
           </div>
 
         </form>

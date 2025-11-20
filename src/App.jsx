@@ -1,14 +1,20 @@
+import React from "react";
+import {Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home/Home";
 import Forms from "./pages/Forms/Forms";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Resultado from "./pages/Resultado/Resultado";
 
 function App() {
 
   return (
-    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Forms />} />
+
+        <Route path="/" element={<Home />} />
+        <Route path="/forms" element={<Forms />} />
+        <Route path="/resultado" element={<Resultado />} />
+
       </Routes>
-    </BrowserRouter>
   )
 }
 
