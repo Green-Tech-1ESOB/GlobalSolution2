@@ -12,7 +12,6 @@ function App() {
 
         <Route path="/" element={<Home />} />
         <Route path="/forms" element={<Forms />} />
-        <Route path="/resultado" element={<Resultado />} />
 
       </Routes>
   )
